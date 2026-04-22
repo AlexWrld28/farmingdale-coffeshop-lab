@@ -1,6 +1,6 @@
 /**
  * @Author Jomar Lubin
- * @Author Jake "Write Your last name here Jake"
+ * @Author Alex "Write Your last name here Alex"
  *
  * After reading and understanding the assignment, I deemed the
  * previous "HotSetFactory.java" and "DriverClass.java" unnecessary

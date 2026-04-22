@@ -4,13 +4,12 @@ public class DriverClass {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Please type one of the following words to select a drink size:\n1. Large\n2. Medium\n3. Small\n");
-        String size = scanner.nextLine(); // Reads a string
+        System.out.print("Would you like something hot or iced today?\n1. Hot\nIced");
+        int drink = scanner.nextInt(); // Gets users drink preference
+        if (drink == 1) {
+            HotDrink myCoff = new HotSetFactory().getInstance("4K");
+        }
 
-        Cup myCup = new CupSetFactory().getInstance(size);
 
-        myCup.milk();
-        myCup.shots();
-        myCup.sweets();
     }
 }

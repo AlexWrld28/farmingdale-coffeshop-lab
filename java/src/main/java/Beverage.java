@@ -30,6 +30,21 @@ public abstract class Beverage {
 
 }
 
+/**
+ * MANDATORY CLASSES ACCORDING TO THE INSTRUCTIONS
+ * I'll create this in one file but if we want we
+ * can transfer them to individual .java pictures
+ */
+class Coffee extends Beverage{
 
+}
+
+class Tea extends Beverage{
+
+}
+
+class Latte extends Beverage{
+
+}
 
 

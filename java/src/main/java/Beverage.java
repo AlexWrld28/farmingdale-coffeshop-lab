@@ -14,6 +14,20 @@
 public abstract class Beverage {
 
     // here we should create the options fields like  hot, iced, sugar, milk etc
+    /**
+     * These are the fields we will use in the switch cases to assign custom options
+     * to each drink. I don't think were missing any but feel free to add fields
+     * if you come up with them, just ensure you modify the methods that require
+     * the fields.
+     */
+    private String name;
+    private String temperature;
+    private String shots;
+    private String milk;
+    private String Sweetener;
+
+    //we may also need an abstract method here, but I'm not to sure so ill skip it for now
+
 }
 
 
